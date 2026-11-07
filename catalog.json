@@ -1,7 +1,52 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-07T11:23:14.459Z",
+  "generated_at": "2026-11-07T11:23:34.110Z",
   "addons": [
+    {
+      "id": "wb-addon-sites",
+      "title": "站点",
+      "description": "站点收藏：目录树、链接与标签",
+      "author": "",
+      "versions": [
+        {
+          "version": "1.0.3",
+          "minShell": "0.1.0",
+          "tarball": "https://github.com/ityyq777/dsh-workbench-addons/releases/download/wb-addon-sites%401.0.3/wb-addon-sites%401.0.3.tgz",
+          "sha256": "2f99a95f177003a641555ab2129dd59105b6c190163e0abb6cc83018ceaa4de0",
+          "size": 24460,
+          "publishedAt": "2026-11-07T11:23:19.306Z",
+          "tables": [
+            "site",
+            "site_node",
+            "site_node_mapping"
+          ],
+          "views": [
+            "sites"
+          ],
+          "toolActions": [
+            "sites.capabilities",
+            "sites.list",
+            "sites.get",
+            "sites.create",
+            "sites.update",
+            "sites.delete",
+            "sites.stats",
+            "siteTags.search",
+            "siteTags.byIds",
+            "siteNodes.tree",
+            "siteNodes.children",
+            "siteNodes.multipleChildren",
+            "siteNodes.pathChildren",
+            "siteNodes.path",
+            "siteNodes.create",
+            "siteNodes.rename",
+            "siteNodes.move",
+            "siteNodes.delete"
+          ]
+        }
+      ],
+      "latest": "1.0.3"
+    },
     {
       "id": "wb-addon-tags",
       "title": "标签",
